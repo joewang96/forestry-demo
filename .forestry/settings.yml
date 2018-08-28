@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Custom
 - type: directory
-  path: ''
+  path: ecommerce
   label: Ecommerce Item
   create: all
   match: "**/*"
