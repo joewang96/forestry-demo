@@ -1,0 +1,26 @@
+---
+label: Ecommerce Item
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: title_of_product
+  label: Title of Product
+  config:
+    required: true
+- type: textarea
+  config:
+    required: true
+  label: Description
+  name: description
+- type: number
+  name: price
+  label: Price
+  description: How much does it cost? (number only, exclude "$")
+  config:
+    min: '0'
+    required: true
+- type: file
+  name: main_image
+  label: Main image
+  description: The primary image used to show the product in previews
