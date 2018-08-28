@@ -24,3 +24,5 @@ fields:
   name: main_image
   label: Main image
   description: The primary image used to show the product in previews
+pages:
+- ecommerce/example-cactus.md
