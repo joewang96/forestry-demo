@@ -4,6 +4,13 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: Ecommerce Item
+  create: all
+  match: "**/*"
+  templates:
+  - ecommerce-item
 - type: heading
   label: Content
 - type: jekyll-posts
